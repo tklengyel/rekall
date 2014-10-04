@@ -1063,7 +1063,7 @@ class ParsePDB(plugin.Command):
         super(ParsePDB, cls).args(parser)
 
         parser.add_argument(
-            "pdb_filename", default=None, required=True,
+            "-F", "--pdb_filename", default=None, required=True,
             help="The filename of the PDB file.")
 
         parser.add_argument(
